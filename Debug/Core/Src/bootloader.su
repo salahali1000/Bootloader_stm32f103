@@ -1,0 +1,14 @@
+bootloader.c:27:6:BL_SendMessage	112	static
+bootloader.c:38:13:CBL_GET_Version	32	static
+bootloader.c:56:13:CBL_GET_Help	32	static
+bootloader.c:82:13:CBL_GET_Chip_Identification_Number	32	static
+bootloader.c:101:13:CBL_Flash_Erase	32	static
+bootloader.c:121:13:CBL_Write_Data	32	static
+bootloader.c:154:16:BL_Address_Verification	24	static
+bootloader.c:173:13:bootloader_jump_to_user_app	48	static,ignoring_inline_asm
+bootloader.c:215:11:BL_FetchCmd	16	static
+bootloader.c:255:13:BL_Send_ACK	24	static
+bootloader.c:265:13:BL_Send_NACK	16	static
+bootloader.c:271:17:BL_CRC_Verify	40	static
+bootloader.c:292:16:Perform_Flash_Erase	40	static
+bootloader.c:342:16:FlashMemory_Write	48	static
